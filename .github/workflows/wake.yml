@@ -2,7 +2,7 @@ name: Wake CAMS App
 
 on:
   schedule:
-    - cron: "0 */10 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 jobs:
